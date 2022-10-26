@@ -52,3 +52,10 @@ npm install
 ```bash
 npm test
 ```
+
+**Docker CMD**
+docker run -p 8080:8080 -e KEYCLOAK_USER=<username> -e KEYCLOAK_PASSWORD=<password> quay.io/keycloak/keycloak:15.0.2
+
+**Login Id and Password**
+id: aryan.singhal@dentsu.com
+pass: 12345
